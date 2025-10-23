@@ -1,38 +1,41 @@
 {
-  "name": "my-react-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@tryretool/custom-component-support": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "engines": {
-    "node": ">=20.0.0"
-  },
+  "name": "retool-ag-grid-component",
+  "version": "1.0.0",
+  "description": "Advanced AG Grid custom component for Retool with data import/export capabilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "npx retool-ccl dev",
-    "deploy": "npx retool-ccl deploy"
+    "dev": "retool-ccl dev",
+    "build": "retool-ccl build",
+    "deploy": "retool-ccl deploy",
+    "login": "retool-ccl login"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "retoolCustomComponent": {
+    "label": "AG Grid Components",
+    "description": "Advanced data grid components powered by AG Grid"
+  },
+  "dependencies": {
+    "ag-grid-community": "^34.2.0",
+    "ag-grid-react": "^34.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.55",
-    "@typescript-eslint/eslint-plugin": "^7.3.1",
-    "@typescript-eslint/parser": "^7.3.1",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.1",
-    "prettier": "^3.0.3",
-    "postcss-modules": "^6.0.0"
+    "@tryretool/custom-component-support": "^1.9.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "postcss-modules": "^6.0.1",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "retoolCustomComponentLibraryConfig": {
+    "name": "DGAGGrid",
+    "label": "DG AG Grid",
+    "description": "AG Grid Custom Component Example",
+    "entryPoint": "src/index.tsx",
+    "outputPath": "dist"
   }
 }

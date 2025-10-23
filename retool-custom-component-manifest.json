@@ -1,0 +1,88 @@
+{
+  "customComponentSupportVersion": "2",
+  "components": {
+    "AGGridComponent": {
+      "name": "AG Grid Component",
+      "model": [
+        {
+          "name": "rowData",
+          "initialValue": [],
+          "label": "Row Data",
+          "description": "Connect your query data here (e.g., {{ query1.data }})",
+          "type": "array"
+        },
+        {
+          "name": "selectedRows",
+          "initialValue": [],
+          "inspector": "hidden",
+          "label": "Selected Rows",
+          "description": "Currently selected rows (use as {{ customComponent1.selectedRows }})",
+          "type": "array"
+        },
+        {
+          "name": "editedData",
+          "initialValue": [],
+          "inspector": "hidden",
+          "label": "Edited Data (All Rows)",
+          "description": "All grid data with any edits applied",
+          "type": "array"
+        },
+        {
+          "name": "changedRows",
+          "initialValue": [],
+          "inspector": "hidden",
+          "label": "Changed Rows (Only Edited)",
+          "description": "Only the rows that have been edited - use this for write-back queries",
+          "type": "array"
+        },
+        {
+          "name": "enableRowSelection",
+          "initialValue": true,
+          "label": "Enable Row Selection",
+          "type": "boolean"
+        },
+        {
+          "name": "multiRowSelection",
+          "initialValue": true,
+          "label": "Multi-Row Selection",
+          "type": "boolean"
+        },
+        {
+          "name": "enablePagination",
+          "initialValue": false,
+          "label": "Enable Pagination",
+          "type": "boolean"
+        },
+        {
+          "name": "enableEditing",
+          "initialValue": false,
+          "label": "Enable Cell Editing",
+          "type": "boolean"
+        },
+        {
+          "name": "pageSize",
+          "initialValue": 50,
+          "label": "Page Size",
+          "type": "number"
+        },
+        {
+          "name": "defaultSortColumn",
+          "initialValue": "",
+          "label": "Default Sort Column",
+          "description": "Column to sort by on load (e.g., \"id\"). Leave empty for no default sort.",
+          "type": "string"
+        },
+        {
+          "name": "defaultSortDirection",
+          "initialValue": "asc",
+          "label": "Default Sort Direction",
+          "description": "Sort direction: \"asc\" (ascending) or \"desc\" (descending)",
+          "type": "string"
+        }
+      ],
+      "events": [],
+      "defaultHeight": 40,
+      "defaultWidth": 12
+    }
+  }
+}
