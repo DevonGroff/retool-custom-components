@@ -5,13 +5,15 @@ A collection of custom components for Retool applications, designed to extend Re
 ## 🚀 Components
 
 ### AG Grid Component
-A powerful data grid component built on AG Grid Community, featuring:
+A powerful data grid component built on [AG Grid Community](https://www.ag-grid.com/), featuring:
 - **Advanced Data Display**: Sortable, filterable columns with customizable styling
 - **Row Selection**: Single and multi-row selection with programmatic control
 - **Cell Editing**: Inline cell editing with validation and change tracking
 - **Pagination**: Built-in pagination for large datasets
 - **Data Export**: Export selected or all data to CSV
 - **Real-time Updates**: Seamless integration with Retool queries and state
+
+> **Learn more**: [AG Grid Documentation](https://www.ag-grid.com/documentation/) | [AG Grid React Guide](https://www.ag-grid.com/react-data-grid/)
 
 ## 📁 Repository Structure
 
@@ -127,9 +129,14 @@ To add a new component to this library:
 
 ## 📖 Documentation
 
-- [Getting Started Guide](docs/getting-started.md)
-- [Development Guide](docs/development-guide.md)
-- [Component API Reference](docs/api-reference.md)
+### Local Documentation
+- [Getting Started Guide](docs/getting-started.md) - Quick setup and usage guide
+- [Development Guide](docs/development-guide.md) - How to add new components
+
+### Retool Official Documentation
+- [Retool Custom Component Libraries](https://docs.retool.com/apps/guides/custom/custom-component-libraries/) - Official Retool documentation
+- [Building Custom React Components](https://docs.retool.com/apps/guides/custom/custom-components/) - React component development guide
+- [Retool CLI Reference](https://docs.retool.com/apps/guides/custom/custom-component-libraries/#retool-cli) - Command line tools
 
 ## 🤝 Contributing
 
@@ -146,8 +153,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 For questions or issues:
-- Check the [documentation](docs/)
-- Open an issue on GitHub
+- Check the [local documentation](docs/) in this repository
+- Review [Retool's official documentation](https://docs.retool.com/apps/guides/custom/custom-component-libraries/)
+- Open an issue on [GitHub](https://github.com/DevonGroff/retool-custom-components/issues)
 - Contact the development team
 
 ---
