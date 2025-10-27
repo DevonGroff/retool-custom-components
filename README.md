@@ -129,9 +129,6 @@ To add a new component to this library:
 
 ## 📖 Documentation
 
-### Local Documentation
-- [Development Guide](docs/development-guide.md) - How to add new components
-
 ### Retool Official Documentation
 - [Retool Custom Component Libraries](https://docs.retool.com/apps/guides/custom/custom-component-libraries/) - Official Retool documentation
 - [Building Custom React Components](https://docs.retool.com/apps/guides/custom/custom-components/) - React component development guide
