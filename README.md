@@ -130,7 +130,6 @@ To add a new component to this library:
 ## 📖 Documentation
 
 ### Local Documentation
-- [Getting Started Guide](docs/getting-started.md) - Quick setup and usage guide
 - [Development Guide](docs/development-guide.md) - How to add new components
 
 ### Retool Official Documentation
