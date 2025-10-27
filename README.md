@@ -130,8 +130,7 @@ To add a new component to this library:
 ## 📖 Documentation
 
 ### Retool Official Documentation
-- [Retool Custom Component Libraries](https://docs.retool.com/apps/guides/custom/custom-component-libraries/) - Official Retool documentation
-- [Building Custom React Components](https://docs.retool.com/apps/guides/custom/custom-components/) - React component development guide
+- [Retool Custom Component Libraries](https://docs.retool.com/apps/guides/custom/custom-component-libraries/)
 - [Retool CLI Reference](https://docs.retool.com/apps/guides/custom/custom-component-libraries/#retool-cli) - Command line tools
 
 ## 🤝 Contributing
